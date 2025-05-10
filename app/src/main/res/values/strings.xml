@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Image gallery</string>
+    <string name="images_count">%1$d images</string>
+    <string name="empty">No Images on this device</string>
+    <string name="photos_name">Photos</string>
+    <string name="allow_storage_permission">Allow Access</string>
+    <string name="permission_required">This app require Storage permission\n to access your phto</string>
+</resources>

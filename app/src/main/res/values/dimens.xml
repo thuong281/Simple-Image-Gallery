@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="folder_column_width">120dp</dimen>
+    <dimen name="picture_column_width">91dp</dimen>
+</resources>

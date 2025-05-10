@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/imageFolderFragment">
+
+    <fragment
+        android:id="@+id/imageFolderFragment"
+        android:name="com.example.vnpay.ui.screen.ImageFolderFragment"
+        android:label="ImageFolderFragment" >
+        <action
+            android:id="@+id/action_imageFolderFragment_to_imageListFragment"
+            app:destination="@id/imageListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageListFragment"
+        android:name="com.example.vnpay.ui.screen.ImageListFragment"
+        android:label="ImageListFragment" >
+        <action
+            android:id="@+id/action_imageListFragment_to_imageDetailFragment"
+            app:destination="@id/imageDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageDetailFragment"
+        android:name="com.example.vnpay.ui.screen.ImageDetailFragment"
+        android:label="ImageDetailFragment" />
+</navigation>
